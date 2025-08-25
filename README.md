@@ -1,6 +1,7 @@
 # Arduino
 Arduino information and projects repository
-
+## Arduino Uno rev4 ##
+* [Uno R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi/)
 ## Arduino Uno rev3 ##
 * [Uno rev3](https://docs.arduino.cc/hardware/uno-rev3/)
 * [Pin Outs](https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf)
