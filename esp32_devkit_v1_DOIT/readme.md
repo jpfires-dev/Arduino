@@ -2,6 +2,7 @@
 <img width="750" height="422" alt="image" src="https://github.com/user-attachments/assets/b114a9d8-5749-4a21-830b-6d6e21190ddf" />
 
 ## References ##
+* [CP210X Drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 * [Random Nerd Tutorials](https://randomnerdtutorials.com/getting-started-with-esp32/)
   * [Books](https://randomnerdtutorials.com/insider/)
 * [ESP Boards](https://www.espboards.dev/esp32/esp32doit-devkit-v1/)
