@@ -55,13 +55,9 @@ void setup() {
 
   delay_readytostart = 3000;
 
-  // Setup ADC
-  // ADC0 => GPIO36 => analogRead(36)
-  // ADC3 => GPIO39 => analogRead(39)
-  //pinMode(A0, OUPUT);
-  digitalWrite(36, LOW);
+  // Start Button
   pinMode(36, INPUT);
-
+  
   // Setup Target Array
   target_array[0] = 25; pinMode(target_array[0], OUTPUT);
   target_array[1] = 26; pinMode(target_array[1], OUTPUT);
@@ -103,6 +99,16 @@ void TargetOn(){
 void TargetOff(){
   digitalWrite(target_array[newtargetnumber],LOW);
 }
+void AllTargetsOn(){
+  for(int i=0;i<10;i++){
+    digitalWrite(target_array[i],HIGH);
+  }
+}
+void AllTargetsOff(){
+  for(int i=0;i<10;i++){
+    digitalWrite(target_array[i],LOW);
+  }
+}
 //====================================================================
 // Main
 //====================================================================
@@ -113,11 +119,22 @@ void loop() {
   //Serial.printf("%03d\r\n",now);
   //while( (millis() - now) < 1000){}
 
+  if(digitalRead(36)==LOW){
+    Serial.println("Button pressed: STATE_READY");
+    state = STATE_READY;
+    delay(500);
+  }
+
   switch(state){
     case STATE_IDLE:
       targetswitchingcount = numberoftargetswitching;
       break;
     case STATE_READY:
+      AllTargetsOn();
+      delay(600);
+      AllTargetsOff();
+      delay(600);
+
       Serial.println("   STATE_READY");
       delay(2000);
       state = STATE_CHOOSETARGET;
@@ -139,7 +156,7 @@ void loop() {
       TargetOff();
       state = STATE_WAIT;
       targetswitchingcount--;
-      if(targetswitchingcount){
+      if((targetswitchingcount>0)&&(targetswitchingcount<10)){
         state = STATE_WAIT;
       }else{
         state = STATE_FINISH;
@@ -152,6 +169,19 @@ void loop() {
       state = STATE_CHOOSETARGET;
       break;
     case STATE_FINISH:
+      delay(2000);
+      AllTargetsOn();
+      delay(200);
+      AllTargetsOff();
+      delay(200);
+      AllTargetsOn();
+      delay(200);
+      AllTargetsOff();
+      delay(200);
+
+      Serial.println("===================================");
+      Serial.println("Result: You shoot bad, try again!");
+      state = STATE_IDLE;
       break;
     case STATE_STOP:
       break;
