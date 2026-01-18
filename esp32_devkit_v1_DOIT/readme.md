@@ -6,7 +6,8 @@
 
 ## References ##
 * [CP210X Drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
-* [Random Nerd Tutorials](https://randomnerdtutorials.com/getting-started-with-esp32/)
+* [Random Nerd Tutorials: Getting Started with ESP32](https://randomnerdtutorials.com/getting-started-with-esp32/)
+* [Random Nerd Tutorials: ESP32 ADC Analog Read Arduino](https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/)
   * [Books](https://randomnerdtutorials.com/insider/)
 * [ESP Boards](https://www.espboards.dev/esp32/esp32doit-devkit-v1/)
   * [Schematic](https://embedded-systems-design.github.io/overview-of-the-esp32-devkit-doit-v1/SchematicsforESP32.pdf)
