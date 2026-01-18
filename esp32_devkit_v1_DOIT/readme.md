@@ -1,6 +1,9 @@
 # ESP32 Dev Kit V1 DOIT #
 <img width="750" height="422" alt="image" src="https://github.com/user-attachments/assets/b114a9d8-5749-4a21-830b-6d6e21190ddf" />
 
+<img width="1000" height="511" alt="image" src="https://github.com/user-attachments/assets/1b065ece-50f6-4a41-a946-a37bfd94f846" />
+
+
 ## References ##
 * [CP210X Drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 * [Random Nerd Tutorials](https://randomnerdtutorials.com/getting-started-with-esp32/)
