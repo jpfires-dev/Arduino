@@ -3,6 +3,8 @@
 
 <img width="1000" height="511" alt="image" src="https://github.com/user-attachments/assets/1b065ece-50f6-4a41-a946-a37bfd94f846" />
 
+<img width="1025" height="551" alt="image" src="https://github.com/user-attachments/assets/21aed168-4456-4a85-877e-1bbdcecc3954" />
+
 
 ## References ##
 * [CP210X Drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
