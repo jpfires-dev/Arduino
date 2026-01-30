@@ -19,5 +19,9 @@
 * [DOIT ESP32 DEV KIT v1: high resolution pinout and specs](https://mischianti.org/doit-esp32-dev-kit-v1-high-resolution-pinout-and-specs/)
 
 ## OLED Issues ##
+* [U8g2](https://github.com/olikraus/u8g2)
+  * [U8g2 Wiki](https://github.com/olikraus/u8g2/wiki)
+* [U8glib](https://github.com/olikraus/u8glib)
+  * [Devices](https://github.com/olikraus/u8glib/wiki/device)
 * [SSD1306 lib but SSD1315](https://tinusaur.org/2019/04/29/updated-ssd1306xled-library-fixes-compatibility-ssd1315/)
   * [ssd1306xled](https://tinusaur.org/software/libraries/ssd1306xled/)
