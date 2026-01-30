@@ -16,3 +16,7 @@
   * [ESP32 Series Datasheet](https://documentation.espressif.com/esp32_datasheet_en.pdf)
 * [docs.platformio.org](https://docs.platformio.org/en/latest/boards/espressif32/esp32doit-devkit-v1.html)
 * [DOIT ESP32 DEV KIT v1: high resolution pinout and specs](https://mischianti.org/doit-esp32-dev-kit-v1-high-resolution-pinout-and-specs/)
+
+## OLED Issues ##
+* [SSD1306 lib but SSD1315](https://tinusaur.org/2019/04/29/updated-ssd1306xled-library-fixes-compatibility-ssd1315/)
+  * [ssd1306xled](https://tinusaur.org/software/libraries/ssd1306xled/)
