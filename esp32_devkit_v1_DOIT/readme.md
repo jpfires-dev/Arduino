@@ -13,3 +13,4 @@
   * [Schematic](https://embedded-systems-design.github.io/overview-of-the-esp32-devkit-doit-v1/SchematicsforESP32.pdf)
   * [ESP32 Series Datasheet](https://documentation.espressif.com/esp32_datasheet_en.pdf)
 * [docs.platformio.org](https://docs.platformio.org/en/latest/boards/espressif32/esp32doit-devkit-v1.html)
+* [DOIT ESP32 DEV KIT v1: high resolution pinout and specs](https://mischianti.org/doit-esp32-dev-kit-v1-high-resolution-pinout-and-specs/)
